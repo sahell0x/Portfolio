@@ -1,6 +1,6 @@
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Code2, Database, Laptop, Terminal, Wrench, Brain } from 'lucide-react';
+import { Code2, Database, Laptop, Wrench, Brain } from 'lucide-react';
 
 export function Skills() {
   const skillCategories = [
