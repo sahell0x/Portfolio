@@ -20,7 +20,7 @@ export function Projects() {
       title: 'Weather App',
       description: 'Real-time weather updates with auto-location detection and city search feature.',
       tech: ['React.js', 'Material UI'],
-      link: 'https://weather-app8937.vercel.app/',
+      link: 'https://weather.sahellx.site/',
     },
   ];
 
