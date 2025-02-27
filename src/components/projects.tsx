@@ -14,7 +14,7 @@ export function Projects() {
       title: 'FeeloChat',
       description: 'Advanced chat application with real-time emotional displays using face-api.js and TensorFlow.',
       tech: ['React.js', 'Recoil', 'Express.js', 'Node.js', 'Socket.io', 'MongoDB', 'Tailwind'],
-      link: 'https://feelo-chat-coming-soon.vercel.app/',
+      link: 'https://feelochat.sahellx.site',
     },
     {
       title: 'Weather App',
