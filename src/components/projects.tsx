@@ -13,14 +13,20 @@ export function Projects() {
     {
       title: 'FeeloChat',
       description: 'Advanced chat application with real-time emotional displays using face-api.js and TensorFlow.',
-      tech: ['React.js', 'Recoil', 'Express.js', 'Node.js', 'Socket.io', 'MongoDB', 'Tailwind'],
+      tech: ['React.js', 'Recoil', 'Express.js', 'Node.js', 'Socket.io', 'MongoDB', 'Tailwind', 'TypeScript', 'Face api.js'],
       link: 'https://feelochat.sahellx.site',
+    },
+    {
+      title: 'Code Atopsy',
+      description: 'AI agent web application dinamically visualizes algorithms and code snippets in any programing language.',
+      tech: ['React.js', 'TypeScript', 'Node.js', 'Express.js', 'Tailwind', 'Custom Agent'],
+      link: 'https://codeatopsy.sahellx.site',
     },
     {
       title: 'Weather App',
       description: 'Real-time weather updates with auto-location detection and city search feature.',
       tech: ['React.js', 'Material UI'],
-      link: 'https://weather.sahellx.site/',
+      link: 'https://weather.sahellx.site',
     },
   ];
 
