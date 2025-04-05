@@ -12,13 +12,17 @@ export function Projects() {
   const projects = [
     {
       title: 'FeeloChat',
-      description: 'Advanced chat application with real-time emotional displays using face-api.js and TensorFlow.',
+      description: `FeeloChat is a cutting-edge, end-to-end encrypted chat app that revolutionizes conversations with real-time
+      emotion sharing. By running a tiny ML model directly in the user’s browser to detect facial expressions, it
+      ensures unmatched privacy while delivering an immersive and deeply personal messaging experience.`,
       tech: ['React.js', 'Recoil', 'Express.js', 'Node.js', 'Socket.io', 'MongoDB', 'Tailwind', 'TypeScript', 'Face api.js'],
       link: 'https://feelochat.sahellx.site',
     },
     {
       title: 'Code Atopsy',
-      description: 'AI agent web application dinamically visualizes algorithms and code snippets in any programing language.',
+      description: `Code Atopsy a web-based AI agent application that analyzes and visualizes algorithms and code snippets in
+      multiple programming languages. Utilized AI techniques to generate insights, explanations, and debugging
+      suggestions for better comprehension.`,
       tech: ['React.js', 'TypeScript', 'Node.js', 'Express.js', 'Tailwind', 'Custom Agent'],
       link: 'https://codeatopsy.sahellx.site',
     },
