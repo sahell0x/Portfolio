@@ -13,20 +13,31 @@ export function Experience() {
       company: 'Sparrow (Next gen API testing tool)',
       period: 'Present',
       description: [
-        'Resolved critical UI issues, improving interface responsiveness and accessibility',
-        'Contributed to WebSocket integration for real-time communication',
-        'Implemented efficient image response handling in REST APIs',
+        'Added API response download functionality, improving data accessibility in the web app',
+        'Developed seamless image response handling for REST APIs, ensuring smooth rendering',
+        'Optimized UI responsiveness by resolving critical interface issues, enhancing user accessibility',
+        'Implemented WebSocket auto-disconnection detection with real-time UI notifications',
       ],
       tech: 'TypeScript, Tauri, Rust, Svelte, MongoDB, Nest.js',
+    },
+    {
+      title: 'Open Source Contributor',
+      company: 'Bruno (API testing tool)',
+      period: 'Present',
+      description: [
+        'Enhanced the UI by implementing support for handling and rendering SVG responses',
+      ],
+      tech: 'TypeScript, Electron, React, Jest, Redux',
     },
     {
       title: 'Web Developer Intern',
       company: 'Affimintus Technologies',
       period: 'June 2024 – Nov 2024',
       description: [
-        'Enhanced frontend functionality using JavaScript and React',
-        'Integrated REST APIs for efficient data flow',
-        'Collaborated with team for faster project delivery',
+        'Reduced initial page load time by 25%, improving overall performance',
+        'Integrated REST APIs efficiently, reducing response time by 20%',
+        'Collaborated with backend teams, accelerating project delivery by 15%',
+        'Implemented effective state management, enhancing maintainability',
       ],
       tech: 'React.js, JavaScript, REST APIs',
     },
@@ -41,7 +52,7 @@ export function Experience() {
             <Card key={index}>
               <CardHeader>
                 <CardTitle>{exp.title}</CardTitle>
-                <CardDescription>{exp.company} | {exp.period}</CardDescription>
+                <CardDescription>{exp.company} {exp.period ? ` | ${exp.period}` : ''}</CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="list-disc list-inside space-y-2 text-muted-foreground mb-4">
