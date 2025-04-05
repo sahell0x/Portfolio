@@ -11,7 +11,7 @@ export function Experience() {
     {
       title: 'Open Source Contributor',
       company: 'Sparrow (Next gen API testing tool)',
-      period: 'Present',
+      period: '',
       description: [
         'Added API response download functionality, improving data accessibility in the web app',
         'Developed seamless image response handling for REST APIs, ensuring smooth rendering',
@@ -20,15 +20,7 @@ export function Experience() {
       ],
       tech: 'TypeScript, Tauri, Rust, Svelte, MongoDB, Nest.js',
     },
-    {
-      title: 'Open Source Contributor',
-      company: 'Bruno (API testing tool)',
-      period: 'Present',
-      description: [
-        'Enhanced the UI by implementing support for handling and rendering SVG responses',
-      ],
-      tech: 'TypeScript, Electron, React, Jest, Redux',
-    },
+    
     {
       title: 'Web Developer Intern',
       company: 'Affimintus Technologies',
@@ -41,6 +33,15 @@ export function Experience() {
       ],
       tech: 'React.js, JavaScript, REST APIs',
     },
+    {
+      title: 'Open Source Contributor',
+      company: 'Bruno (API testing tool)',
+      period: '',
+      description: [
+        'Enhanced the UI by implementing support for handling and rendering SVG responses',
+      ],
+      tech: 'TypeScript, Electron, React, Jest, Redux',
+    }
   ];
 
   return (
