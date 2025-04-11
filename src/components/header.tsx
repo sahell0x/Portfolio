@@ -25,7 +25,7 @@ export function Header() {
     <header className={`fixed top-0 w-full z-50 transition-all ${scrolled ? 'bg-background/80 backdrop-blur-sm border-b' : ''}`}>
       <div className="container  px-4">
         <div className="flex items-center justify-between h-16 flex-row">
-          <a href="https://drive.google.com/file/d/1-RYjkRLW7bZ6f24gQ-nTUrGveL7T6JSV/view?usp=sharing" className="text-xl font-bold md:ml-20">
+          <a href="https://drive.google.com/file/d/1NS2s-jzII93IVOHl7zqMg0fJ-a_EALuH/view?usp=sharing" className="text-xl font-bold md:ml-20">
             Sahil Khan
           </a>
 
